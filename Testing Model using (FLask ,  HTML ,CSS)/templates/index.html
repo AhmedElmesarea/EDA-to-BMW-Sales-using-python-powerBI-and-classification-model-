@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/desgin.css')}}" >
+    <title>BMW Classification Sales</title>
+
+    
+</head>
+
+<body>
+    <div class="container">
+        <h2>BMW Classification Sales</h2>
+
+        <form action="/" method="post">
+            <label>Model</label>
+            <select name="model">
+                <option value="M3">M3</option>
+                <option value="i3">i3</option>
+                <option value="i8">i8</option>
+                <option value="3 Series">3 Series</option>
+                <option value="5 Series">5 Series</option>
+                <option value="X1">X1</option>
+                <option value="X3">X3</option>
+                <option value="X5">X5</option>
+                <option value="X6">X6</option>
+                <option value="M5">M5</option>
+            </select>
+
+            <label>Year</label>
+            <input type="number" name="year" placeholder="ex: 2020">
+
+            <label>Region</label>
+            <select name="region">
+                <option value="Europe">Europe</option>
+                <option value="Asia">Asia</option>
+                <option value="Middle East">Middle East</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Africa">Africa</option>
+            </select>
+
+            <label>Color</label>
+            <select name="color">
+                <option value="Black">Black</option>
+                <option value="Silver">Silver</option>
+                <option value="Grey">Grey</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+            </select>
+
+            <label>Fuel Type</label>
+            <select name="fuel_type">
+                <option value="Petrol">Petrol</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Electric">Electric</option>
+                <option value="Diesel">Diesel</option>
+            </select>
+
+            <label>Transmission</label>
+            <select name="transmission">
+                <option value="Manual">Manual</option>
+                <option value="Automatic">Auto</option>
+            </select>
+
+            <label>Engine Size (L)</label>
+            <input type="number" step="0.1" name="engine_size_l" placeholder="ex: 3.0">
+
+            <label>Mileage (KM)</label>
+            <input type="number" name="mileagw_km" placeholder="ex: 45000">
+
+            <label>Price USD</label>
+            <input type="number" name="price_usd" placeholder="ex: 39000">
+
+            <label>Sales Volume</label>
+            <input type="number" name="sales_volume" placeholder="ex: 250">
+
+            <button type="submit">Predict Now</button>
+        </form>
+
+        <!-- عرض النتيجة بعد التنبؤ -->
+        {% if prediction %}
+        <div class="result">
+            {{ prediction }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

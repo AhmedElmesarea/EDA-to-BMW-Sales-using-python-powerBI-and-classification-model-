@@ -1,0 +1,86 @@
+/* Body */
+body {
+    background-color: #f2f5f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 40px 30px 30px 30px;
+    /* زيادة البادينج الأعلى */
+    width: 430px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+    font-size: 22px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    /* مسافة فوق كل حقل */
+    font-weight: bold;
+    font-size: 15px;
+    color: #34495e;
+}
+
+/* Inputs and Selects */
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Focus Effect */
+input:focus,
+select:focus {
+    border-color: #2ecc71;
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(46, 204, 113, 0.8);
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* Result */
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
