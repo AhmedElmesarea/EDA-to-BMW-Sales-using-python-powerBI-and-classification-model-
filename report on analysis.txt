@@ -1,0 +1,59 @@
+I am pleased to share with you a comprehensive analysis of BMW car sales over the years from 2010 to 2024. Using Python 🐍, Power BI 📊, the Flask framework 🌐, and a machine learning model 🤖 (SVM) that achieves up to 99% accuracy to show whether sales are high or low through user data input, we have revealed key trends, market dynamics, and revenue growth opportunities. Here's a detailed overview:
+
+📊 Sales Summary
+
+Total Sales: 19.01224 trillion 💰
+
+Average Annual Sales: 380.2449 million 🚗
+
+Number of Unique Models: 11 🔹
+
+💰 Highlights of Revenue
+
+Highest Year: 2022 🏆
+
+Lowest Year: 2023 📉
+
+Best Selling Model: 7 Series 🚘
+
+Least Selling Model: M3 🐢
+
+Most Profitable Fuel Type: Hybrid ⚡
+
+Least Profitable Fuel Type: Diesel 🛢
+
+Most Profitable Transmission: Manual ⚙️ > Automatic 🔄
+
+Highest Revenue Continent: Africa 🌍
+
+Least Revenue Continent: North America 🌎
+
+🚘 Vehicle Specifications and Performance
+
+Maximum Engine Capacity: 5 liters 🔧
+
+Minimum engine capacity: 1.5 liters 🔩
+
+Top car sales continent: Africa 🌍
+
+Least car sales continent: South America 🌎
+
+Best-selling car: X3 🏁
+
+Least-selling car: 5 Series 🐌
+
+Best-selling color: 7 Series - Black ⚫
+
+Least-selling color: M3 - Silver ⚪
+
+✨ Key Findings
+
+Hybrid vehicles generate more revenue than any other fuel type ⚡💵
+
+Africa stands out as the most dynamic market 🌍🔥, while North and South America lag behind 🌎🐢
+
+7 Series models dominate revenue and sales 🚘💹, while M3 models underperform 🐌
+
+Manual transmission is more profitable than automatic transmission ⚙️💰
+
+BMW Journey of 2017 From 2010 to 2024, we highlight strong sales performance 🚀 and how data-driven insights 📊, innovation 💡 and strategic focus 🎯 contribute to sustainable growth 🌱 in the dynamic automotive market.
